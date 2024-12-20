@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" preserveAspectRatio="none">
-  <rect width="100%" height="100%" fill="black" /> <!-- Black background -->
-  <filter id="noiseFilter">
-    <feTurbulence type="turbulence" baseFrequency="0.5" numOctaves="3" result="noise" />
-    <feColorMatrix type="saturate" values="0" /> <!-- Convert noise to grayscale -->
-  </filter>
-  <rect width="100%" height="100%" filter="url(#noiseFilter)" fill="white" opacity="0.3" /> <!-- White noise with reduced opacity -->
-</svg>
-

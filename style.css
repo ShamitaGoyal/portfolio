@@ -1,7 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: "Helvetica Neue";
 }
 
@@ -9,91 +6,56 @@ html, body{
     width: 100%;
     height: 100%;
     background-color: black;
-    background: white url('noise.svg') repeat;
-    background-size: cover;
 }
+
 
 
 
 #hero-section{
-    /* border: 2px solid red; */
-    /* margin-left: 100px; */
-    width: 100%;
-    height: 100vh;
-
-}
-
-#main-body{
-    /* background-color: black; */
-    width: 100%;
-    /* height: 100vh; */
-    font-family: "Helvetica Neue";
-    background: #f0f0f0 url('noise.svg') repeat;
-    background-size: cover;
-
-
-}
-
-#header-section{
-    margin-top: 10vw;
-    /* margin-left: 100px; */
-    padding-left: 10vw;
+    /* background-color: green; */
+    margin: 9rem;
     display: block;
-    justify-content: left;
-    align-items: center;
-
-}
-
-#header-section h2{
-    color: white;
-    font-weight: 400; 
-    text-transform: uppercase;
-    font-size: 1.5vw;
-    margin-left: 10px;
-    /* display: flex;
-    justify-content: left;
-    align-content: center; */
-}
-
-#header-section h1 {
-    color: white;
-    font-weight: 500; 
-    text-transform: uppercase;
-    font-size: 9vw;
-    /* display: flex;
-    justify-content: left;
-    align-self: center; */
-    letter-spacing: -3px;
-    text-wrap: nowrap;
-
-
+   
     
 }
 
-#header-section h4{
-    margin-left: 10px;
-    color: white;
-    font-weight: 100; 
-    font-size: 1.3vw;
-    letter-spacing: 0.5px;
-} */
-
 #header-section{
-    margin: 150px;
+    color: white;
+   
 }
 
+
+#header-section h2{
+   font-weight: 200;
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   padding-left: 0.5rem;
+}
+
+
+#header-section h1{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 7rem;
+    letter-spacing: -0.2rem;
+ }
+
+#header-section h4{
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
 #bt1{
-    margin-top: 30px;
-    font-weight: 300; /* Regular */
-    color: black;             /* White text */
-    padding: 20px 30px;       /* Add some padding */
-    border: none;             /* Remove border */
-    border-radius: 115px;       /* Rounded corners */
-    font-size: 1.5vw;          /* Increase font size */
+    margin-top: 1rem;
+    font-weight: 300;
+    color: black;            
+    padding: 1.25rem 2rem 1.25rem 2rem ; 
+    border: none;             
+    border-radius: 2rem;       
     text-transform: uppercase;
     cursor: pointer; 
     transition-duration: 0.2s;
-    /* opacity: 0.9;        */
     transition: all .2s ease-in-out; 
 }
 
@@ -102,264 +64,441 @@ html, body{
     background-color: rgb(173, 172, 172);
 }
 
-/* #cover1{
-    margin-left: 300px;
-    width: 600px;
-    height: 500px;
-} */
-
 .img-section{
-    width: 50%;
     display: flex;
-    justify-content: center;
-    left: 50%;
-    position: absolute;
-    margin-top: -50px;
-    /* border: 2px solid red; */
-    /* height: 20rem;
-    width: 20rem; */
-
+    justify-content: right;
+    align-items: center;
+    /* background-color: red; */
+    height: 350px;
 }
 
+#img1{
+    /* background-color: aqua; */
+    margin: 0.5rem;
+    margin-top: 2rem;
+    /* padding: 3rem; */
+    width: 21rem;
+    height: 24rem;
+    border-radius: 1.5rem;
+}
+
+/* cover image of the hero section  */
+
 .cover1{
-    margin-left: 10vw;
-    width: 40%;
-    border-radius: 40px;
+    width: 100%;
+    height: auto;
+    border-radius: 1.5rem;
     filter: grayscale(100%);
 }
 
-#x-icons #x1{
-    width: 4%;
-    display: flex;
-    justify-content: center;
-    margin-left: 89vw;
-    margin-top: -90px;
-    /* border: 2px solid red; */
-    font-size: 3vw;
-    color: white;
-    opacity: 0.5;
+/* 
+this is the code for the stars aka Xs */
+
+.rotating1{
+   /* border: 2px white solid; */
+   display: flex;
+   justify-content: right;
+   padding: 1rem;
+   color: white;
+   width: 10%;
+   margin-left: 90%;
+   margin-bottom: 1rem;
+   margin-top: -8rem;
+   opacity: 0.6;
+
 }
 
-#x-icons #x2{
-    width: 4%;
-    display: flex;
-    justify-content: center;
-    margin-left: 92vw;
-    margin-top: 10px;
-    /* border: 2px solid red; */
-    font-size: 2vw;
-    color: white;
-    opacity: 0.5;
-}
 
-#x-icons #x3{
-    width: 4%;
+.rotating2{
+    /* border: 2px white solid; */
     display: flex;
-    justify-content: center;
-    margin-left: 62vw;
-    margin-top: 20vw;
-    /* border: 2px solid red; */
-    font-size: 3vw;
+    justify-content: right;
+    padding: 1rem;
     color: white;
-    opacity: 0.5;
-}
+    opacity: 0.6;
+ }
 
-#x-icons #x4{
-    width: 4%;
-    display: flex;
-    justify-content: center;
-    margin-left: 64vw;
-    margin-top: -7vw;
-    /* border: 2px solid red; */
-    font-size: 2vw;
-    color: white;
-    opacity: 0.5;
-}
-
-#about-me{
-    /* border: 2px solid rebeccapurple; */
-    padding-top: 5vw;
-    padding-bottom: 15vw;
+#x1 .ri-close-large-line{
+    font-size: 1rem;
     
+   /* background-color: yellow; */
+   /* margin-left: -4rem; */
+  
+}
+
+#x2 .ri-close-large-line{
+    font-size: 2rem;
+   /* background-color: greenyellow; */
+  
+}
+
+
+.stars-grp2{
+    margin-right: 21rem;
+}
+
+#x3 .ri-close-large-line{
+    font-size: 2rem;
+   /* background-color: yellow; */
+   margin-left: -4rem;
+  
+}
+
+#x4 .ri-close-large-line{
+    font-size: 2rem;
+   /* background-color: greenyellow; */
+   /* margin-left: -4rem; */
+  
+}
+
+
+@media (max-width: 650px){
+    #hero-section{
+        /* background-color: green; */
+        margin: 2rem;
+    }
+
+    #header-section h2{
+        font-size: 0.9rem;
+        padding-left: 0.5rem;
+     }
+     
+     
+     #header-section h1{
+         font-size: 4rem;
+      }
+     
+     #header-section h4{
+         font-size: 0.8rem;
+         text-wrap: wrap;
+        
+     }
+
+     #bt1{
+        margin-top: 1rem;       
+        padding: 0.7rem 1.25rem 0.7rem 1.25rem ; 
+    
+    }
+
+    .img-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    #img1{
+        /* background-color: aqua; */
+        margin: 0.5rem;
+        margin-top: 4rem;
+        /* padding: 3rem; */
+        width: 15rem;
+        height: 18rem;
+      
+    }
+
+    .rotating1{
+        /* border: 2px white solid; */
+        width: 4%;
+        margin-left: 100%;
+        margin-top: 0.1rem;
+        margin-bottom: -5rem;
+        opacity: 0.6;
+     
+     }
+     
+     
+     .rotating2{
+         /* border: 2px white solid; */
+         display: flex;
+         justify-content: right;
+         padding: 1rem;
+         color: white;
+         opacity: 0.6;
+      }
+     
+     #x1 .ri-close-large-line{
+         font-size: 1rem;
+        /* background-color: yellow; */
+        margin-left: -2rem;
+       
+     }
+     
+     #x2 .ri-close-large-line{
+         font-size: 1rem;
+        /* background-color: greenyellow; */
+       
+     }
+     
+     
+     .stars-grp2{
+         margin-right: 15.5rem;
+     }
+     
+     #x3 .ri-close-large-line{
+         font-size: 1rem;
+        /* background-color: yellow; */
+        margin-left: -2rem;
+       
+     }
+     
+     #x4 .ri-close-large-line{
+         font-size: 1rem;
+        /* background-color: greenyellow; */
+        /* margin-left: -4rem; */
+       
+     }
+
+}
+
+@media (max-width: 760px){
+    #img1{
+        /* background-color: aqua; */
+        margin-top: 5rem;
+      
+    }
+
+}
+
+
+/* ABOUT ME SECTION */
+
+
+#about-me-section{
+   /* background-color: green; */
+    margin: 5rem;
+    margin-top: 10rem;
+    padding: 1.5rem;
+    display: block;
 }
 
 #about-header{
-    /* margin-top: 150px; */
-    /* margin-left: 100px; */
-    /* border: 2px solid red; */
-    padding-left: 5vw;
-    display: block;
-
-}
-
-
-
-#about-header {
+    /* background-color: blueviolet; */
     color: white;
+
 }
+
 
 #about-header h2{
-    padding-left: 2vw;
-    font-weight: 200; 
+    font-weight: 200;
     text-transform: uppercase;
-    font-size: 1.5vw;
-    letter-spacing: 1px;
-    text-wrap: nowrap;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    margin-left: 0.75rem;
 }
 
 #about-header h1{
-    margin-top: -1vw;
-    font-weight: 500; 
+    font-weight: 500;
     text-transform: uppercase;
-    font-size: 9vw;
-    text-wrap: nowrap;
+    font-size: 8rem;
+    letter-spacing: -0.2rem;
 }
 
-#container{
-    margin-top: 1vw;
-    margin-left: -1vw;
-    /* border: 2px solid red; */
+
+#summary-container{
+
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 2rem;
+    /* border: 2px solid yellow; */
 }
 
-.img1{
-    /* border: 2px solid red; */
-    margin-left: 6vw;
-    /* margin-top: 3vw; */
-    width: 120%;
-    border-radius: 40px;
+.about-me-cover2{
+    /* background-color: aqua; */
+    min-width: 50%;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    
+}
+
+.text-box{
+    color: white;
+    font-size: 1.4rem;
+    /* background-color: brown; */
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 200; 
+    line-height: 137%;
+    text-align: center;
+
+}
+
+.cover2{
+    width: 100%;
+    height: auto;
+    border-radius: 1.5rem;
     filter: grayscale(100%);
 }
 
 
-#text-box p{
-    margin-left: 25vw;
-    margin-right: 8vw;
-    width: 32vw;
-    /* border: 2px solid red; */
-    color: white;
-    font-weight: 200; 
-    font-size: 1.5vw;    
-    line-height: 137%;
-    text-align: center;
-    position: relative;
 
+@media (max-width: 870px){
+    #about-me-section{
+        /* background-color: green; */
+         margin: 0.5rem;
+         margin-top: 10rem;
+         padding: 1.5rem;
+         display: block;
+     }
+
+
+    #about-header h2{
+        font-size: 0.9rem;
+        padding-left: 0.5rem;
+        margin-left: 0.75rem;
+    }
+
+    #about-header h1{
+        font-size: 4rem;
+       
+    }
+}
+
+@media (max-width: 900px){
+    #summary-container{
+
+        display: block;
+        /* flex-wrap: wrap; */
+        margin: 0.25rem;
+        /* border: 2px solid yellow; */
+    }
+
+
+    .text-box{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+        /* background-color: brown; */
+        font-weight: 200; 
+        /* line-height: 137%; */
+        text-align: center;
+    
+    }
 }
 
 
-#project-section h1{
-    /* border: 2px solid red; */
+
+
+/* 
+PROJECTS SECTION */
+
+#project-section{
+    margin-top: 15rem;
     color: white;
     text-transform: uppercase;
-    font-size: 8vw;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
+    
 }
 
-#projects-container{
-    margin-top: 5vw;
+.project-header{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project-header h1{
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+.project-header h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+/* CODE FOR ALL THE PROJECT CARDS */
+
+
+
+.card-container {
+    padding-top: 5rem;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
     flex-wrap: wrap;
-    
+    gap: 4rem;
+
+}
+
+.card-wrapper{
+    /* background-color: blueviolet; */
+    border-radius: 1.25rem;
+}
+
+.card-text{
+    margin-top: 1.4rem;
+    /* background-color: blue; */
+    padding: 0;
 }
 
 
-#p1{
-    color: white;
-    border-radius: 15px;
-    width: 43vw;
-    height: 28vw;
-    position: relative;
-    background-color: #D9D9D9;
+.card-name-small{
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+}
+
+.card-name-large{
+    margin-top: -1rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+
+.card{
     transition: all .2s ease-in-out; 
+    background-color: white;
+    width: 40rem;
+    height: 25rem;
+    border-radius: 1.25rem;
 }
 
-#p1:hover{
+.card-img{
+    width: auto;
+    height: fit-content;
+
+}
+
+#project1{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+#project2{
+    height: 100%;
+    border-radius: 1.25rem;
+}
+
+
+
+/* Hover effect */
+.card:hover {
     cursor: pointer;
-    transform: scale(1.05); 
-}
-
-#p2{
-    color: white;
-    border-radius: 15px;
-    width: 43vw;
-    height: 28vw;
-    position: relative;
-    background-color: #D9D9D9;
-    transition: all .2s ease-in-out; 
-}
-
-#p2:hover{
-    cursor: pointer;
-    transform: scale(1.05); 
-}
-
-#p3{
-    color: white;
-    border-radius: 15px;
-    width: 43vw;
-    height: 28vw;
-    position: relative;
-    background-color: #D9D9D9;
-    transition: all .2s ease-in-out; 
-}
-
-#p3:hover{
-    cursor: pointer;
-    transform: scale(1.05); 
-}
-
-#p4{
-    color: white;
-    border-radius: 15px;
-    width: 43vw;
-    height: 28vw;
-    position: relative;
-    background-color: #D9D9D9;
-    transition: all .2s ease-in-out; 
-}
-
-#p4:hover{
-    cursor: pointer;
-    transform: scale(1.05); 
+    transform: scale(1.05); /* Slight zoom out (5% larger) */
+   
 }
 
 
-#text-cont{
-    border: 2px solid red;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-    
+@media (max-width:600px ){
+#project-section h1{
+    font-size: 4rem;
 }
 
-.hover-1 {
-    --c: rgb(255, 190, 68); /* the color */
-    --s: .1em;
-    
-    line-height:1.1em;
-    padding-bottom: calc(2.1*var(--s));
-    background: 
-      conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
-        left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
-      conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
-        left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
-    -webkit-mask:
-      linear-gradient(#000 0 0) content-box,
-      linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
-    transition: .5s;
-  }
-  .hover-1:hover {
-    --_p: 50%;
-    color: var(--c);
-  }
+#project-section h3{
+    font-size: 1rem;
+}
+}
 
+@media (max-width: 650px){
+    .card{
+        width: 21rem;
+        height: 13.5rem;
+    }
+
+
+
+}
 
